@@ -1,0 +1,14 @@
+<input
+  type="checkbox"
+  name="theme"
+  id="theme"
+  (change)="onChangeTheme($event)"
+  class="hidden peer"
+/>
+<label
+  for="theme"
+  class="flex z-10 items-center justify-center peer relative w-10 h-10 shadow-lg border-2 peer-checked:border-gray-500 rounded-lg cursor-pointer text-neutral-50"
+>
+</label>
+<span class="opacity-0 peer-checked:opacity-100">Moon</span>
+<span class="opacity-100 peer-checked:opacity-0">Sun</span>
