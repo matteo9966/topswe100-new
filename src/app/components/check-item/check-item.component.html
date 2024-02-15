@@ -1,16 +1,23 @@
 <label
-  for="done"
+  [for]="index()"
   class="flex items-center gap-5 rounded-md border bg-gradient-to-tr p-4 pl-2 pr-4 dark:from-black dark:to-gray-dark"
 >
-  <input type="checkbox" name="done" id="done" class="peer h-0 w-0 opacity-0" />
+  <input
+    type="checkbox"
+    [name]="index()"
+    [id]="index()"
+    class="peer h-0 w-0 opacity-0"
+  />
   <div
-    class="relative h-7 w-7 shrink-0 grow-0 basis-7 rounded-md border-2 bg-gray-50 transition-colors after:absolute after:left-[1px] after:top-[2px] after:h-3 after:w-5 after:rotate-[130deg] after:border-r-2 after:border-t-2 after:bg-transparent after:content-[''] peer-checked:bg-green peer-checked:after:border-black"
+    class="relative h-7 w-7 shrink-0 grow-0 basis-7 rounded-md border-2 bg-gray-50 transition-colors after:absolute after:left-[1px] after:top-[2px] after:h-3 after:w-5 after:rotate-[130deg] after:border-r-2 after:border-t-2 after:bg-transparent after:content-[''] peer-checked:bg-green peer-checked:after:border-black sm:hidden md:block"
   ></div>
 
   <span class="font-medium text-black dark:text-white">
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, delectus?
+    {{ description }}
   </span>
   <span class="flex-1"></span>
-  <app-button>go to problem</app-button>
+  <a [href]="href">
+    <app-button></app-button>
+  </a>
   <!-- <app-status-button /> -->
 </label>

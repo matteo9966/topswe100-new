@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { ButtonComponent } from '../button/button.component';
+import { ListItem } from 'src/app/core/interfaces/listItem.interface';
 
 @Component({
   selector: 'app-check-item',
@@ -13,4 +14,15 @@ import { ButtonComponent } from '../button/button.component';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CheckItemComponent {}
+export class CheckItemComponent {
+  item = input<ListItem>();
+  index = input();
+
+  get href() {
+    return this.item()?.href;
+  }
+
+  get description() {
+    return this.item()?.description;
+  }
+}

@@ -1,7 +1,5 @@
 <app-check-container>
-  <app-check-item></app-check-item>
-  <app-check-item></app-check-item>
-  <app-check-item></app-check-item>
-  <app-check-item></app-check-item>
-  <app-check-item></app-check-item>
+  @for (item of problemList(); track item.href; let idx = $index) {
+    <app-check-item [item]="item" [index]="idx"></app-check-item>
+  }
 </app-check-container>
