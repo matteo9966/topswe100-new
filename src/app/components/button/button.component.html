@@ -1,0 +1,12 @@
+<button
+  [ngClass]="{
+    'border-primary text-primary': type() === 'primary',
+    'border-secondary text-secondary': type() === 'secondary',
+    'border-warn text-warn': type() === 'warn'
+  }"
+  class="flex items-center gap-2 whitespace-nowrap rounded-md border bg-gradient-to-tr p-2 dark:from-gray-dark dark:to-gray-700 dark:text-white"
+>
+  <ng-content select="[icon-left]"></ng-content>
+  <ng-content></ng-content>
+  <ng-content select="[icon-right]"></ng-content>
+</button>

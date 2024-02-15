@@ -1,14 +1,15 @@
-<input
-  type="checkbox"
-  name="theme"
-  id="theme"
-  (change)="onChangeTheme($event)"
-  class="hidden peer"
-/>
-<label
-  for="theme"
-  class="flex z-10 items-center justify-center peer relative w-10 h-10 shadow-lg border-2 peer-checked:border-gray-500 rounded-lg cursor-pointer text-neutral-50"
->
-</label>
-<span class="opacity-0 peer-checked:opacity-100">Moon</span>
-<span class="opacity-100 peer-checked:opacity-0">Sun</span>
+<div class="relative h-10 w-10">
+  <input
+    type="checkbox"
+    name="theme"
+    id="theme"
+    (change)="onChangeTheme($event)"
+    class="peer hidden"
+  />
+  <label
+    for="theme"
+    class="peer relative z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border-2 text-neutral-50 shadow-lg peer-checked:border-gray-500"
+  >
+  </label>
+  <ng-icon class="center-in-absolute absolute" [svg]="icon" size="30"></ng-icon>
+</div>
