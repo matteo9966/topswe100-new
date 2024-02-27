@@ -7,6 +7,8 @@
     [name]="index()"
     [id]="index()"
     class="peer h-0 w-0 opacity-0"
+    [checked]="checked()"
+    (change)="onChange()"
   />
   <div
     class="relative h-7 w-7 shrink-0 grow-0 basis-7 rounded-md border-2 bg-gray-50 transition-colors after:absolute after:left-[1px] after:top-[2px] after:h-3 after:w-5 after:rotate-[130deg] after:border-r-2 after:border-t-2 after:bg-transparent after:content-[''] peer-checked:bg-green peer-checked:after:border-black sm:hidden md:block"
@@ -15,9 +17,4 @@
   <span class="font-medium text-black dark:text-white">
     {{ description }}
   </span>
-  <span class="flex-1"></span>
-  <a [href]="href">
-    <app-button></app-button>
-  </a>
-  <!-- <app-status-button /> -->
 </label>

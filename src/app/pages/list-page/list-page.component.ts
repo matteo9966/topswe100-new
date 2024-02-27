@@ -26,13 +26,15 @@ import { StateService } from 'src/app/services/state.service';
 export class ListPageComponent implements OnInit {
   httpService = inject(HttpService);
   state = inject(StateService);
-  problemList = this.state.problemList;
+  problemListWithStatus = this.state.problemsWithCompletedStatus;
+
   ngOnInit(): void {
-    if (this.problemList.length === 0) {
-      this.httpService.getProblemsList().subscribe((list) => {
-        console.log(list);
-        this.state.setList(list);
-      });
-    }
+    this.httpService.getProblemsList().subscribe((list) => {
+      this.state.setList(list);
+    });
+  }
+
+  onCheck(event: { id: string; checked: boolean }) {
+    this.state.updateCompletedTasks(event.id, event.checked);
   }
 }

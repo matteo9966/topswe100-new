@@ -1,5 +1,10 @@
 <app-check-container>
-  @for (item of problemList(); track item.href; let idx = $index) {
-    <app-check-item [item]="item" [index]="idx"></app-check-item>
+  @for (item of problemListWithStatus(); track item.href; let idx = $index) {
+    <app-check-item
+      [item]="item"
+      [index]="idx"
+      (onCheck)="onCheck($event)"
+      [checked]="item.completed"
+    ></app-check-item>
   }
 </app-check-container>

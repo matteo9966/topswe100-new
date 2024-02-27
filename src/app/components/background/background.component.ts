@@ -5,14 +5,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './background.component.html',
-  host: { class: 'w-full h-full dark:bg-black/50' },
+  host: { class: 'w-full h-full bg-bg-light dark:bg-bg-dark' },
   styles: `
     :host {
       display: block;
       position: fixed;
-
       inset: 0;
-      z-index: 0;
+      z-index: -1;
     }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
