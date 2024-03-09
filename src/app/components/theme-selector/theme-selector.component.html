@@ -3,13 +3,18 @@
     type="checkbox"
     name="theme"
     id="theme"
-    (change)="onChangeTheme($event)"
+    (change)="onChangeTheme()"
     class="peer hidden"
+    #checkbox
   />
   <label
     for="theme"
     class="peer relative z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border-2 text-neutral-50 shadow-lg peer-checked:border-gray-500"
   >
   </label>
-  <ng-icon class="center-in-absolute absolute" [svg]="icon" size="30"></ng-icon>
+  <ng-icon
+    class="center-in-absolute absolute"
+    [svg]="icon()"
+    size="30"
+  ></ng-icon>
 </div>

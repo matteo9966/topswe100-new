@@ -1,0 +1,11 @@
+<div class="flex flex-col items-center gap-2">
+  <div>Progress</div>
+  <div class="bg-grey-light w-full shadow">
+    <div
+      class="bg-blue py-1 text-center text-xs leading-none text-white"
+      [ngStyle]="{ width: stringPercentage() }"
+    >
+      {{ stringPercentage() }}
+    </div>
+  </div>
+</div>

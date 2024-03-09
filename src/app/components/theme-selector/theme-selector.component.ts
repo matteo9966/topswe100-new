@@ -1,9 +1,17 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  inject,
+  ViewChild,
+  signal,
+} from '@angular/core';
 import { NgIconComponent } from '@ng-icons/core';
 import {
   matLightModeOutline,
   matDarkModeOutline,
 } from '@ng-icons/material-icons/outline';
+import { StateService } from 'src/app/services/state.service';
 
 @Component({
   selector: 'app-theme-selector',
@@ -15,19 +23,45 @@ import {
       display: block;
     }
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ThemeSelectorComponent {
-  icon: string = matDarkModeOutline;
+export class ThemeSelectorComponent implements AfterViewInit {
+  icon = signal(matDarkModeOutline);
+  stateService = inject(StateService);
+  scheme = signal<'dark' | 'light'>('dark');
+  @ViewChild('checkbox', { static: true }) checkbox!: ElementRef;
 
-  onChangeTheme(e: Event) {
-    const checked = (<HTMLInputElement>e.target).checked;
-    if (checked) {
-      document.body.classList.add('dark');
-      this.icon = matLightModeOutline;
+  constructor() {
+    this.stateService.colorScheme$.subscribe((scheme) => {
+      this.scheme.set(scheme);
+      if (scheme === 'dark') {
+        document.body.classList.add('dark');
+        this.icon.set(matLightModeOutline);
+      } else {
+        document.body.classList.remove('dark');
+        this.icon.set(matDarkModeOutline);
+      }
+    });
+  }
+
+  ngAfterViewInit(): void {
+    if (this.scheme() === 'dark') {
+      this.initCheckbox(true);
     } else {
-      document.body.classList.remove('dark');
-      this.icon = matDarkModeOutline;
+      this.initCheckbox(false);
     }
+  }
+
+  initCheckbox(checked: boolean) {
+    if (!this.checkbox || !this.checkbox?.nativeElement) {
+      return;
+    }
+    this.icon.update(() =>
+      checked ? matLightModeOutline : matDarkModeOutline,
+    );
+    (<HTMLInputElement>this.checkbox.nativeElement).checked = checked;
+  }
+
+  onChangeTheme() {
+    this.stateService.toggleColorScheme();
   }
 }
