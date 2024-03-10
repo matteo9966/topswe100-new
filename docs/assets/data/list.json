@@ -1,0 +1,398 @@
+{
+  "list": [
+    {
+      "href": "https://leetcode.com/problems/fizz-buzz",
+      "description": "Fizz Buzz"
+    },
+    {
+      "href": "https://leetcode.com/problems/two-sum",
+      "description": "Two Sum"
+    },
+    {
+      "href": "https://leetcode.com/problems/valid-anagram",
+      "description": "Valid Anagram"
+    },
+    {
+      "href": "https://leetcode.com/problems/reverse-string",
+      "description": "Reverse String"
+    },
+    {
+      "href": "https://leetcode.com/problems/valid-palindrome",
+      "description": "Valid Palindrome"
+    },
+    {
+      "href": "https://leetcode.com/problems/longest-common-prefix",
+      "description": "Longest Common Prefix"
+    },
+    {
+      "href": "https://leetcode.com/problems/power-of-three",
+      "description": "Power of Three"
+    },
+    {
+      "href": "https://leetcode.com/problems/number-of-1-bits",
+      "description": "Number of 1 Bits"
+    },
+    {
+      "href": "https://leetcode.com/problems/range-sum-query-immutable",
+      "description": "Range Sum Query - Immutable"
+    },
+    {
+      "href": "https://leetcode.com/problems/fibonacci-number",
+      "description": "Fibonacci Number"
+    },
+    {
+      "href": "https://leetcode.com/problems/climbing-stairs",
+      "description": "Climbing Stairs"
+    },
+    {
+      "href": "https://leetcode.com/problems/min-cost-climbing-stairs",
+      "description": "Min Cost Climbing Stairs"
+    },
+    {
+      "href": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+      "description": "Best Time to Buy and Sell Stock"
+    },
+    {
+      "href": "https://leetcode.com/problems/binary-tree-inorder-traversal",
+      "description": "Binary Tree Inorder Traversal"
+    },
+    {
+      "href": "https://leetcode.com/problems/invert-binary-tree",
+      "description": "Invert Binary Tree"
+    },
+    {
+      "href": "https://leetcode.com/problems/symmetric-tree",
+      "description": "Symmetric Tree"
+    },
+    {
+      "href": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+      "description": "Maximum Depth of Binary Tree"
+    },
+    {
+      "href": "https://leetcode.com/problems/same-tree",
+      "description": "Same Tree"
+    },
+    {
+      "href": "https://leetcode.com/problems/path-sum",
+      "description": "Path Sum"
+    },
+    {
+      "href": "https://leetcode.com/problems/minimum-depth-of-binary-tree",
+      "description": "Minimum Depth of Binary Tree"
+    },
+    {
+      "href": "https://leetcode.com/problems/validate-binary-search-tree",
+      "description": "Validate Binary Search Tree"
+    },
+    {
+      "href": "https://leetcode.com/problems/reverse-linked-list",
+      "description": "Reverse Linked List"
+    },
+    {
+      "href": "https://leetcode.com/problems/middle-of-the-linked-list",
+      "description": "Middle of the Linked List"
+    },
+    {
+      "href": "https://leetcode.com/problems/binary-tree-level-order-traversal",
+      "description": "Binary Tree Level Order Traversal"
+    },
+    {
+      "href": "https://leetcode.com/problems/find-if-path-exists-in-graph",
+      "description": "Find if Path Exists in Graph"
+    },
+    {
+      "href": "https://leetcode.com/problems/number-of-islands",
+      "description": "Number of Islands"
+    },
+    {
+      "href": "https://leetcode.com/problems/max-area-of-island",
+      "description": "Max Area of Island"
+    },
+    {
+      "href": "https://leetcode.com/problems/count-sub-islands",
+      "description": "Count Sub Islands"
+    },
+    {
+      "href": "https://leetcode.com/problems/valid-parentheses",
+      "description": "Valid Parentheses"
+    },
+    {
+      "href": "https://leetcode.com/problems/product-of-array-except-self",
+      "description": "Product of Array Except Self"
+    },
+    {
+      "href": "https://leetcode.com/problems/binary-search",
+      "description": "Binary Search"
+    },
+    {
+      "href": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid",
+      "description": "Minimum Add to Make Parentheses Valid"
+    },
+    {
+      "href": "https://leetcode.com/problems/longest-palindromic-substring",
+      "description": "Longest Palindromic Substring"
+    },
+    {
+      "href": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted",
+      "description": "Two Sum II - Input Array Is Sorted"
+    },
+    {
+      "href": "https://leetcode.com/problems/container-with-most-water",
+      "description": "Container With Most Water"
+    },
+    { "href": "https://leetcode.com/problems/3sum", "description": "3Sum" },
+    {
+      "href": "https://leetcode.com/problems/group-anagrams",
+      "description": "Group Anagrams"
+    },
+    {
+      "href": "https://leetcode.com/problems/kth-largest-element-in-an-array",
+      "description": "Kth Largest Element in an Array"
+    },
+    {
+      "href": "https://leetcode.com/problems/k-closest-points-to-origin",
+      "description": "K Closest Points to Origin"
+    },
+    {
+      "href": "https://leetcode.com/problems/insert-delete-getrandom-o1",
+      "description": "Insert Delete GetRandom O(1)"
+    },
+    {
+      "href": "https://leetcode.com/problems/first-bad-version",
+      "description": "First Bad Version"
+    },
+    {
+      "href": "https://leetcode.com/problems/find-peak-element",
+      "description": "Find Peak Element"
+    },
+    { "href": "https://leetcode.com/problems/sqrtx", "description": "Sqrt(x)" },
+    {
+      "href": "https://leetcode.com/problems/koko-eating-bananas",
+      "description": "Koko Eating Bananas"
+    },
+    {
+      "href": "https://leetcode.com/problems/subarray-sum-equals-k",
+      "description": "Subarray Sum Equals K"
+    },
+    {
+      "href": "https://leetcode.com/problems/continuous-subarray-sum",
+      "description": "Continuous Subarray Sum"
+    },
+    {
+      "href": "https://leetcode.com/problems/count-number-of-nice-subarrays",
+      "description": "Count Number of Nice Subarrays"
+    },
+    {
+      "href": "https://leetcode.com/problems/clone-graph",
+      "description": "Clone Graph"
+    },
+    {
+      "href": "https://leetcode.com/problems/copy-list-with-random-pointer",
+      "description": "Copy List with Random Pointer"
+    },
+    {
+      "href": "https://leetcode.com/problems/is-graph-bipartite",
+      "description": "Is Graph Bipartite"
+    },
+    {
+      "href": "https://leetcode.com/problems/evaluate-division",
+      "description": "Evaluate Division"
+    },
+    {
+      "href": "https://leetcode.com/problems/maximum-subarray",
+      "description": "Maximum Subarray"
+    },
+    {
+      "href": "https://leetcode.com/problems/maximum-product-subarray",
+      "description": "Maximum Product Subarray"
+    },
+    {
+      "href": "https://leetcode.com/problems/unique-paths",
+      "description": "Unique Paths"
+    },
+    {
+      "href": "https://leetcode.com/problems/minimum-path-sum",
+      "description": "Minimum Path Sum"
+    },
+    {
+      "href": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+      "description": "Longest Substring Without Repeating Characters"
+    },
+    {
+      "href": "https://leetcode.com/problems/max-consecutive-ones-iii",
+      "description": "Max Consecutive Ones III"
+    },
+    {
+      "href": "https://leetcode.com/problems/maximize-the-confusion-of-an-exam",
+      "description": "Maximize the Confusion of An Exam"
+    },
+    {
+      "href": "https://leetcode.com/problems/longest-nice-subarray",
+      "description": "Longest Nice Subarray"
+    },
+    {
+      "href": "https://leetcode.com/problems/random-pick-with-weight",
+      "description": "Random Pick with Weight"
+    },
+    {
+      "href": "https://leetcode.com/problems/word-break",
+      "description": "Word Break"
+    },
+    {
+      "href": "https://leetcode.com/problems/house-robber",
+      "description": "House Robber"
+    },
+    {
+      "href": "https://leetcode.com/problems/coin-change",
+      "description": "Coin Change"
+    },
+    {
+      "href": "https://leetcode.com/problems/longest-increasing-subsequence",
+      "description": "Longest Increasing Subsequence"
+    },
+    {
+      "href": "https://leetcode.com/problems/longest-common-subsequence",
+      "description": "Longest Common Subsequence"
+    },
+    {
+      "href": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree",
+      "description": "Lowest Common Ancestor of a Binary Search Tree"
+    },
+    {
+      "href": "https://leetcode.com/problems/binary-tree-maximum-path-sum",
+      "description": "Binary Tree Maximum Path Sum"
+    },
+    {
+      "href": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii",
+      "description": "Best Time to Buy and Sell Stock II"
+    },
+    {
+      "href": "https://leetcode.com/problems/jump-game",
+      "description": "Jump Game"
+    },
+    {
+      "href": "https://leetcode.com/problems/course-schedule-ii",
+      "description": "Course Schedule II"
+    },
+    {
+      "href": "https://leetcode.com/problems/path-with-maximum-probability",
+      "description": "Path with Maximum Probability"
+    },
+    {
+      "href": "https://leetcode.com/problems/path-with-minimum-effort",
+      "description": "Path With Minimum Effort"
+    },
+    {
+      "href": "https://leetcode.com/problems/merge-intervals",
+      "description": "Merge Intervals"
+    },
+    {
+      "href": "https://leetcode.com/problems/insert-interval",
+      "description": "Insert Interval"
+    },
+    {
+      "href": "https://leetcode.com/problems/interval-list-intersections",
+      "description": "Interval List Intersections"
+    },
+    {
+      "href": "https://leetcode.com/problems/lru-cache",
+      "description": "LRU Cache"
+    },
+    {
+      "href": "https://leetcode.com/problems/binary-search-tree-iterator",
+      "description": "Binary Search Tree Iterator"
+    },
+    {
+      "href": "https://leetcode.com/problems/min-stack",
+      "description": "Min Stack"
+    },
+    {
+      "href": "https://leetcode.com/problems/implement-stack-using-queues",
+      "description": "Implement Stack using Queues"
+    },
+    {
+      "href": "https://leetcode.com/problems/letter-combinations-of-a-phone-number",
+      "description": "Letter Combinations of a Phone Number"
+    },
+    {
+      "href": "https://leetcode.com/problems/combination-sum",
+      "description": "Combination Sum"
+    },
+    {
+      "href": "https://leetcode.com/problems/permutations",
+      "description": "Permutations"
+    },
+    {
+      "href": "https://leetcode.com/problems/subsets",
+      "description": "Subsets"
+    },
+    {
+      "href": "https://leetcode.com/problems/palindrome-partitioning",
+      "description": "Palindrome Partitioning"
+    },
+    {
+      "href": "https://leetcode.com/problems/implement-trie-prefix-tree",
+      "description": "Implement Trie (Prefix Tree)"
+    },
+    {
+      "href": "https://leetcode.com/problems/basic-calculator",
+      "description": "Basic Calculator"
+    },
+    {
+      "href": "https://leetcode.com/problems/daily-temperatures",
+      "description": "Daily Temperatures"
+    },
+    {
+      "href": "https://leetcode.com/problems/online-stock-span",
+      "description": "Online Stock Span"
+    },
+    {
+      "href": "https://leetcode.com/problems/partition-equal-subset-sum",
+      "description": "Partition Equal Subset Sum"
+    },
+    {
+      "href": "https://leetcode.com/problems/redundant-connection",
+      "description": "Redundant Connection"
+    },
+    {
+      "href": "https://leetcode.com/problems/find-median-from-data-stream",
+      "description": "Find Median from Data Stream"
+    },
+    {
+      "href": "https://leetcode.com/problems/trapping-rain-water",
+      "description": "Trapping Rain Water"
+    },
+    {
+      "href": "https://leetcode.com/problems/max-points-on-a-line",
+      "description": "Max Points on a Line"
+    },
+    {
+      "href": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree",
+      "description": "Serialize and Deserialize Binary Tree"
+    },
+    {
+      "href": "https://leetcode.com/problems/maximum-profit-in-job-scheduling",
+      "description": "Maximum Profit in Job Scheduling"
+    },
+    {
+      "href": "https://leetcode.com/problems/sliding-window-maximum",
+      "description": "Sliding Window Maximum"
+    },
+    {
+      "href": "https://leetcode.com/problems/edit-distance",
+      "description": "Edit Distance"
+    },
+    {
+      "href": "https://leetcode.com/problems/largest-rectangle-in-histogram",
+      "description": "Largest Rectangle in Histogram"
+    },
+    {
+      "href": "https://leetcode.com/problems/number-of-atoms",
+      "description": "Number of Atoms"
+    },
+    {
+      "href": "https://leetcode.com/problems/lfu-cache",
+      "description": "LFU Cache"
+    }
+  ]
+}
