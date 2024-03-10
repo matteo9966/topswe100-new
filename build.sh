@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ng build --output-path docs --base-href /topswe100-new/
+ng build --output-path docs --base-href topswe100-new/
 
 if [ -d "assets" ]; then
   echo "Deleting assets folder, before copying new version..."
