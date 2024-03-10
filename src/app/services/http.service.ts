@@ -7,7 +7,7 @@ import { ListItem } from '../core/interfaces/listItem.interface';
   providedIn: 'root',
 })
 export class HttpService {
-  problemsURL = `/assets/data/list.json`;
+  problemsURL = `assets/data/list.json`;
   httpClient = inject(HttpClient);
 
   getProblemsList() {
