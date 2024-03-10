@@ -38,8 +38,8 @@ module.exports = {
         full: "9999px",
       },
       backgroundImage: {
-        "bg-light": "url('/assets/bg/bg-white.avif')",
-        "bg-dark": "url('/assets/bg/bg-dark.avif')",
+        "bg-light": "url('assets/bg/bg-white.avif')",
+        "bg-dark": "url('assets/bg/bg-dark.avif')",
       },
     },
   },
