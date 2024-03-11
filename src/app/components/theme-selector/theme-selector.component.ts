@@ -12,7 +12,7 @@ import {
   matDarkModeOutline,
 } from '@ng-icons/material-icons/outline';
 import { StateService } from 'src/app/services/state.service';
-
+import { DOCUMENT } from '@angular/common';
 @Component({
   selector: 'app-theme-selector',
   standalone: true,
@@ -27,17 +27,19 @@ import { StateService } from 'src/app/services/state.service';
 export class ThemeSelectorComponent implements AfterViewInit {
   icon = signal(matDarkModeOutline);
   stateService = inject(StateService);
+  document = inject(DOCUMENT);
   scheme = signal<'dark' | 'light'>('dark');
   @ViewChild('checkbox', { static: true }) checkbox!: ElementRef;
 
   constructor() {
     this.stateService.colorScheme$.subscribe((scheme) => {
       this.scheme.set(scheme);
+      if (!this.document) return;
       if (scheme === 'dark') {
-        document.body.classList.add('dark');
+        this.document.body.classList.add('dark');
         this.icon.set(matLightModeOutline);
       } else {
-        document.body.classList.remove('dark');
+        this.document.body.classList.remove('dark');
         this.icon.set(matDarkModeOutline);
       }
     });
